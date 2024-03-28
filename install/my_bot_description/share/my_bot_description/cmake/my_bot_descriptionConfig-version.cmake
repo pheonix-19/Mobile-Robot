@@ -1,0 +1,1 @@
+/home/ayush/first_ws/build/my_bot_description/ament_cmake_core/my_bot_descriptionConfig-version.cmake

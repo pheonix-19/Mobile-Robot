@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size = "0.01 0.1 0.05"/>
+
+
+            </geometry>
+            <material name="gray"/>
+
+        </visual>
+        <collision>
+             <geometry>
+                <box size = "0.01 0.1 0.05"/>
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" l="0.01" w="0.1" h="0.05" xyz="0 0 0" rpy="0 0 0" />
+
+    </link>
+    <joint name="base_camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin xyz="0.305 0 -0.05" rpy="0 0 0" />
+    </joint>   
+    <link name="camera_link_optical">
+
+    </link>
+    <joint name="camera_optical_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}" />
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+    </joint>
+    <gazebo reference="camera_link">
+        <material>Gazebo/Red</material>
+        <sensor name="camera_sensor" type="camera">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link</frame_name>
+            </plugin>    
+        </sensor>
+
+    </gazebo> 
+
+</robot>

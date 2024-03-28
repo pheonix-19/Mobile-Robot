@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/ayush/first_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/ayush_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayush/first_ws/build/my_bot_description -- -j8 -l8
+[0.057s] Invoked command in '/home/ayush/first_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/ayush_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ayush/first_ws/build/my_bot_description -- -j8 -l8
+[0.085s] Invoking command in '/home/ayush/first_ws/build/my_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/ayush_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayush/first_ws/build/my_bot_description
+[0.092s] -- Install configuration: ""
+[0.093s] -- Execute custom install script
+[0.093s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description//urdf/common_properties.xacro
+[0.093s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description//urdf/mobile_base.xacro
+[0.093s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description//urdf/my_bot.urdf.xacro
+[0.093s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description//launch/display_launch.xml
+[0.094s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description//rviz/final.rviz
+[0.094s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/ament_index/resource_index/package_run_dependencies/my_bot_description
+[0.094s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/ament_index/resource_index/parent_prefix_path/my_bot_description
+[0.094s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/environment/path.sh
+[0.095s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/environment/path.dsv
+[0.095s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/local_setup.bash
+[0.095s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/local_setup.sh
+[0.096s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/local_setup.dsv
+[0.096s] -- Symlinking: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/package.dsv
+[0.104s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/ament_index/resource_index/packages/my_bot_description
+[0.104s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig.cmake
+[0.104s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/cmake/my_bot_descriptionConfig-version.cmake
+[0.104s] -- Up-to-date symlink: /home/ayush/first_ws/install/my_bot_description/share/my_bot_description/package.xml
+[0.109s] Invoked command in '/home/ayush/first_ws/build/my_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayush/ayush_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ayush/first_ws/build/my_bot_description
